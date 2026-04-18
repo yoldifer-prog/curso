@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="eXe-MANIFEST-mo48a5au88n1j"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+    <adlcp:location>imslrm.xml</adlcp:location>
+  </metadata>
+  <organizations default="eXe-mo48a5au88n1j">
+    <organization identifier="eXe-mo48a5au88n1j" structure="hierarchical">
+      <title>Situación de Aprendizaje</title>
+      <item identifier="ITEM-page-mo42db50-4148kt3ea" identifierref="RES-page-mo42db50-4148kt3ea" isvisible="true">
+        <title>Ideas en Movimiento: La
+Filosofía Hoy</title>
+        <item identifier="ITEM-page-mo42db53-q0kntdqov" identifierref="RES-page-mo42db53-q0kntdqov" isvisible="true">
+          <title>Intención educativa</title>
+        </item>
+        <item identifier="ITEM-page-mo42db53-ll0y6xw8c" identifierref="RES-page-mo42db53-ll0y6xw8c" isvisible="true">
+          <title>Elementos curriculares</title>
+        </item>
+        <item identifier="ITEM-page-mo42db54-1rvr08wap" identifierref="RES-page-mo42db54-1rvr08wap" isvisible="true">
+          <title> Metodologías activas</title>
+        </item>
+        <item identifier="ITEM-page-mo42db54-0x22esst4" identifierref="RES-page-mo42db54-0x22esst4" isvisible="true">
+          <title>Vinculación con los proyectos y programas del centro</title>
+        </item>
+        <item identifier="ITEM-page-mo42db54-b8n4t6a9t" identifierref="RES-page-mo42db54-b8n4t6a9t" isvisible="true">
+          <title>Actividades complementarias y extraescolares</title>
+        </item>
+        <item identifier="ITEM-page-mo42db54-an518roxf" identifierref="RES-page-mo42db54-an518roxf" isvisible="true">
+          <title>Atribución y descarga</title>
+        </item>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-page-mo42db50-4148kt3ea" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db53-q0kntdqov" type="webcontent" adlcp:scormtype="sco" href="html/intencion-educativa.html">
+      <file href="html/intencion-educativa.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db53-ll0y6xw8c" type="webcontent" adlcp:scormtype="sco" href="html/elementos-curriculares.html">
+      <file href="html/elementos-curriculares.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db54-1rvr08wap" type="webcontent" adlcp:scormtype="sco" href="html/-metodologias-activas.html">
+      <file href="html/-metodologias-activas.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db54-0x22esst4" type="webcontent" adlcp:scormtype="sco" href="html/vinculacion-con-los-proyectos-y-programas-del-cent.html">
+      <file href="html/vinculacion-con-los-proyectos-y-programas-del-cent.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db54-b8n4t6a9t" type="webcontent" adlcp:scormtype="sco" href="html/actividades-complementarias-y-extraescolares.html">
+      <file href="html/actividades-complementarias-y-extraescolares.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="RES-page-mo42db54-an518roxf" type="webcontent" adlcp:scormtype="sco" href="html/atribucion-y-descarga.html">
+      <file href="html/atribucion-y-descarga.html"/>
+      <dependency identifierref="COMMON_FILES"/>
+    </resource>
+    <resource identifier="COMMON_FILES" type="webcontent" adlcp:scormtype="asset">
+      <file href="content.dtd"/>
+      <file href="content.xml"/>
+      <file href="content/css/base.css"/>
+      <file href="content/img/exe_powered_logo.png"/>
+      <file href="idevices/download-source-file/download-package-licenses.png"/>
+      <file href="idevices/download-source-file/download-source-file.css"/>
+      <file href="idevices/download-source-file/download-source-file.js"/>
+      <file href="idevices/download-source-file/exequextsq.svg"/>
+      <file href="idevices/text/exequextsq.svg"/>
+      <file href="idevices/text/text.css"/>
+      <file href="idevices/text/text.html"/>
+      <file href="idevices/text/text.js"/>
+      <file href="imslrm.xml"/>
+      <file href="libs/SCOFunctions.js"/>
+      <file href="libs/SCORM_API_wrapper.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js"/>
+      <file href="libs/bootstrap/bootstrap.bundle.min.js.map"/>
+      <file href="libs/bootstrap/bootstrap.min.css"/>
+      <file href="libs/bootstrap/bootstrap.min.css.map"/>
+      <file href="libs/common.js"/>
+      <file href="libs/common_i18n.js"/>
+      <file href="libs/elpx-manifest.js"/>
+      <file href="libs/exe_elpx_download/exe_elpx_download.js"/>
+      <file href="libs/exe_export.js"/>
+      <file href="libs/favicon.ico"/>
+      <file href="libs/fflate/fflate.umd.js"/>
+      <file href="libs/jquery/jquery.min.js"/>
+      <file href="theme/config.xml"/>
+      <file href="theme/fonts/Atkinson-Hyperlegible-Regular-102a.woff2"/>
+      <file href="theme/icons/emociones.svg"/>
+      <file href="theme/icons/udl_eng_aprenderaprender.svg"/>
+      <file href="theme/icons/udl_eng_culturales.svg"/>
+      <file href="theme/icons/udl_eng_curiosidad.svg"/>
+      <file href="theme/icons/udl_eng_descarga.svg"/>
+      <file href="theme/icons/udl_eng_objetivos.svg"/>
+      <file href="theme/icons/udl_eng_orientaciones.svg"/>
+      <file href="theme/icons/udl_eng_reto.svg"/>
+      <file href="theme/icons/udl_eng_rss.svg"/>
+      <file href="theme/icons/udl_eng_rubrica.svg"/>
+      <file href="theme/icons/udl_eng_saber.svg"/>
+      <file href="theme/icons/udl_eng_temporalizacion.svg"/>
+      <file href="theme/icons/udl_exp_actividad.svg"/>
+      <file href="theme/icons/udl_exp_canto.svg"/>
+      <file href="theme/icons/udl_exp_competenciadigital.svg"/>
+      <file href="theme/icons/udl_exp_coproduccionoral.svg"/>
+      <file href="theme/icons/udl_exp_coproducciontxt.svg"/>
+      <file href="theme/icons/udl_exp_cuestionario.svg"/>
+      <file href="theme/icons/udl_exp_debate.svg"/>
+      <file href="theme/icons/udl_exp_ejercicio.svg"/>
+      <file href="theme/icons/udl_exp_escribe.svg"/>
+      <file href="theme/icons/udl_exp_escucha.svg"/>
+      <file href="theme/icons/udl_exp_graba.svg"/>
+      <file href="theme/icons/udl_exp_grupoheterogeneo.svg"/>
+      <file href="theme/icons/udl_exp_grupohomogeneo.svg"/>
+      <file href="theme/icons/udl_exp_habla.svg"/>
+      <file href="theme/icons/udl_exp_interactivo.svg"/>
+      <file href="theme/icons/udl_exp_juego.svg"/>
+      <file href="theme/icons/udl_exp_lee.svg"/>
+      <file href="theme/icons/udl_exp_lenguasignos.svg"/>
+      <file href="theme/icons/udl_exp_manipula.svg"/>
+      <file href="theme/icons/udl_exp_mediacion.svg"/>
+      <file href="theme/icons/udl_exp_musica.svg"/>
+      <file href="theme/icons/udl_exp_practicamusical.svg"/>
+      <file href="theme/icons/udl_exp_tarea.svg"/>
+      <file href="theme/icons/udl_exp_tareagrupal.svg"/>
+      <file href="theme/icons/udl_rep_adjunto.svg"/>
+      <file href="theme/icons/udl_rep_apoyovisual.svg"/>
+      <file href="theme/icons/udl_rep_caso.svg"/>
+      <file href="theme/icons/udl_rep_conocer.svg"/>
+      <file href="theme/icons/udl_rep_destacado.svg"/>
+      <file href="theme/icons/udl_rep_ejemplo.svg"/>
+      <file href="theme/icons/udl_rep_escucha.svg"/>
+      <file href="theme/icons/udl_rep_fonetica.svg"/>
+      <file href="theme/icons/udl_rep_galeria.svg"/>
+      <file href="theme/icons/udl_rep_gramatica.svg"/>
+      <file href="theme/icons/udl_rep_importante.svg"/>
+      <file href="theme/icons/udl_rep_informarse.svg"/>
+      <file href="theme/icons/udl_rep_lecturafacil.svg"/>
+      <file href="theme/icons/udl_rep_lee.svg"/>
+      <file href="theme/icons/udl_rep_lenguasignos.svg"/>
+      <file href="theme/icons/udl_rep_mediar.svg"/>
+      <file href="theme/icons/udl_rep_nota.svg"/>
+      <file href="theme/icons/udl_rep_pasos.svg"/>
+      <file href="theme/icons/udl_rep_recomienda.svg"/>
+      <file href="theme/icons/udl_rep_redessemanticas.svg"/>
+      <file href="theme/icons/udl_rep_reflexion.svg"/>
+      <file href="theme/icons/udl_rep_reproduccion.svg"/>
+      <file href="theme/icons/udl_rep_vocabulario.svg"/>
+      <file href="theme/icons/udl_sup_adjunto.svg"/>
+      <file href="theme/icons/udl_sup_aprenderaprender.svg"/>
+      <file href="theme/icons/udl_sup_caso.svg"/>
+      <file href="theme/icons/udl_sup_cuestionario.svg"/>
+      <file href="theme/icons/udl_sup_curiosidad.svg"/>
+      <file href="theme/icons/udl_sup_debate.svg"/>
+      <file href="theme/icons/udl_sup_descarga.svg"/>
+      <file href="theme/icons/udl_sup_destacado.svg"/>
+      <file href="theme/icons/udl_sup_escribe.svg"/>
+      <file href="theme/icons/udl_sup_galeria.svg"/>
+      <file href="theme/icons/udl_sup_graba.svg"/>
+      <file href="theme/icons/udl_sup_habla.svg"/>
+      <file href="theme/icons/udl_sup_interactivo.svg"/>
+      <file href="theme/icons/udl_sup_juego.svg"/>
+      <file href="theme/icons/udl_sup_lee.svg"/>
+      <file href="theme/icons/udl_sup_manipula.svg"/>
+      <file href="theme/icons/udl_sup_musica.svg"/>
+      <file href="theme/icons/udl_sup_nota.svg"/>
+      <file href="theme/icons/udl_sup_objetivos.svg"/>
+      <file href="theme/icons/udl_sup_reflexion.svg"/>
+      <file href="theme/icons/udl_sup_reproduccion.svg"/>
+      <file href="theme/icons/udl_sup_rubrica.svg"/>
+      <file href="theme/icons/udl_sup_tarea.svg"/>
+      <file href="theme/icons/udl_sup_tareagrupal.svg"/>
+      <file href="theme/icons/udl_sup_temporalizacion.svg"/>
+      <file href="theme/icons/udl_sup_vocabulario.svg"/>
+      <file href="theme/img/home.png"/>
+      <file href="theme/img/icons.png"/>
+      <file href="theme/img/licenses.gif"/>
+      <file href="theme/screenshot.png"/>
+      <file href="theme/style.css"/>
+      <file href="theme/style.js"/>
+    </resource>
+  </resources>
+</manifest>
